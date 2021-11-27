@@ -32,7 +32,7 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.task-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -82,7 +82,7 @@ button {
   text-transform: uppercase;
 }
 
-.task-text {
+.task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -95,7 +95,7 @@ button {
   color: #888;
 }
 
-.task-text:focus {
+.task-input:focus {
   color: #333;
 }
 
@@ -134,7 +134,7 @@ button {
   width: 226px;
 }
 
-.task-item > .task-text {
+.task-item > .task-input {
   width: 226px;
 }
 
@@ -155,11 +155,11 @@ button {
 }
 
 /* Edit Task */
-ul .task-item .task-text {
+ul .task-item .task-input {
   display: none;
 }
 
-ul .task-item.edit-mode .task-text {
+ul .task-item.edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
